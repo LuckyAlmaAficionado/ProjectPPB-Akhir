@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyPortifolio">
         <activity
+            android:name=".Kalender"
+            android:exported="true" />
+        <activity
             android:name=".SuccesActivity"
             android:exported="true" />
         <activity

@@ -42,10 +42,10 @@ public class MainMenuActivity extends AppCompatActivity {
 //        startActivity(i);
 //    }
 //
-//    public void calendar(View view) {
-//        Intent i = new Intent(MainMenuActivity.this, iCalendar.class);
-//        startActivity(i);
-//    }
+    public void calendar(View view) {
+        Intent i = new Intent(MainMenuActivity.this, Kalender.class);
+        startActivity(i);
+    }
 //
 //    public void payment(View view) {
 //        Intent i = new Intent(MainMenuActivity.this, iPayment.class);
